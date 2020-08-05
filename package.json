@@ -5,10 +5,10 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/binoy14/restify-boilerplate.git"
+    "url": "https://github.com/jesobreira/restify-boilerplate.git"
   },
   "license": "MIT",
-  "author": "Binoy Patel <me@binoy.io>",
+  "author": "Binoy Patel <me@binoy.io>, Jefrey Santos <jefrey.santos@capitual.io>",
   "scripts": {
     "start": "nodemon src/index.js --exec babel-node",
     "test": "jest",
@@ -17,8 +17,35 @@
     "serve": "npm run build && node dist/index.js"
   },
   "dependencies": {
+    "awful-name-thanks-npm": "^1.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "bookshelf": "^1.2.0",
+    "bookshelf-eloquent": "^0.1.15",
+    "bookshelf-json-columns": "^3.0.0",
+    "bookshelf-paranoia": "^0.13.1",
+    "bull": "^3.16.0",
     "bunyan": "^1.8.8",
-    "restify": "^4.3.0"
+    "bunyan-loggly": "^1.4.2",
+    "cacheman-redis": "^2.1.0",
+    "dotenv": "^8.2.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "got": "^11.5.1",
+    "knex": "^0.21.2",
+    "lodash": "^4.17.19",
+    "md5": "^2.3.0",
+    "module-alias": "^2.2.2",
+    "mysql": "^2.18.1",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.11",
+    "redis": "^3.0.2",
+    "redis-delete-wildcard": "0.0.3",
+    "redis-lock": "^0.1.4",
+    "restify": "^4.3.4",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-errors": "^8.0.2",
+    "schemata": "^7.0.3",
+    "stackup": "^1.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",
